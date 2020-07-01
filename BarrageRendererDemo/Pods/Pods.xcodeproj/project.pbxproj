@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BDFFB2D0D5A975CBDC0798D2F3457EC /* BarrageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A326FB9DA0048EB3DC21D5AE48495D /* BarrageHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DE5095D9E150D5D8B65D9B2F1E92732 /* UIImageView+BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1A52F4290C9D0CCAF34B5851C2F78 /* UIImageView+BarrageView.m */; };
+		12A2C70473FCC140509B937840AD4F93 /* BarrageSpriteQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E3A2E135486DD3E4D67434A3AE9259 /* BarrageSpriteQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		130CED9304715BB6FF7B57D287863EB3 /* BarrageFloatTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C118BBCE7D63BC93DABE8911E88F53D1 /* BarrageFloatTextSprite.m */; };
+		141C9BF73E8C6DBB1E3C88241D666ECB /* BarrageFloatImageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A0998EC12458E2A77B6DCB236C8658 /* BarrageFloatImageSprite.m */; };
+		20BEC54EFCCC7D8160CAE7401034B48F /* BarrageSpriteUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EA62CC0CF1DDFF11F3535AA1AEF74E /* BarrageSpriteUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2747433E3F56D9657237C8DE892C9B44 /* BarrageViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2989DCC061B4AD75406E6D8ECB5B71A6 /* BarrageViewPool.m */; };
+		27B5C53E926D6233F8F7EA656817088A /* BarrageFloatImageSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 453953AFDB7108C768681D997102C505 /* BarrageFloatImageSprite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		295619BD36C3FDF3E4C18A9A5140ED22 /* BarrageFloatSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 778417BD72D88C50C9A4FF1393657458 /* BarrageFloatSprite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AF7F0C5EBDDA39E53BA503E27166DD0 /* BarrageDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F7C054BD947349AAD0B276463D8676 /* BarrageDispatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FDF648338E1F5EBE7D3C4BE1C5AD415 /* BarrageWalkTextSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 290B4189EAF699F401AAB3C7440F6445 /* BarrageWalkTextSprite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34C45E2564F7230AA5E91938EC48346A /* BarrageClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BDA75EFEFEFED5F46DC49415D9ED9A /* BarrageClock.m */; };
+		378F675A44AD6A38FE3F7A29D0EB918C /* UILabel+BarrageView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB989084DAA883E2D610D71867376C0B /* UILabel+BarrageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44A14B815DEC7A450F71C332C74E239B /* BarrageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD7A7DD07CBD5B988FA02961DE1A2BC /* BarrageRenderer.m */; };
+		4B2D0687EF6990B2D0AD09D913BB37DA /* BarrageSpriteQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B98C99418AA12EE20F7BD82A7EB718 /* BarrageSpriteQueue.m */; };
+		4C6F4987D5352C105AF9AB49D4088189 /* BarrageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D730A66C0727BE6A3A17EE4E1BCEA5 /* BarrageLoader.m */; };
+		4FABE2B85C7A7F08854E50FB245D088A /* BarrageWalkImageSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 782C13372F5857B215CAAE69A9504494 /* BarrageWalkImageSprite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5839211482C8ABF8D1CA283AAD2A778C /* BarrageDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 88468B18C6023FEFDF1DF3ECF9F5AFF2 /* BarrageDispatcher.m */; };
+		5A25F7A745FF7F283B40D345EB4429AC /* BarrageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 820E79E566C28956323E14C54ACDC3A7 /* BarrageRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FE882DFB8F6BDF103423FD9CC87978D /* TTTAttributedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E83F9A89D39849FF02FE2363EED34C /* TTTAttributedLabel-dummy.m */; };
+		716E06B5551D105015AE5D0F7BD20474 /* BarrageFloatSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2035C2C475CF20C575C88039134363 /* BarrageFloatSprite.m */; };
+		7CC5A41AE2339ACACB37CB73BE10D085 /* UIImageView+BarrageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB9CE01AEFE005819A3F4FC0F0D7CBF /* UIImageView+BarrageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8141361D0F798A075A2F8EC59D9E0083 /* UILabel+BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDD85FE04EEF2A14AB64707AA934ECD /* UILabel+BarrageView.m */; };
+		8229037222ECB9C6F18AC61CCE26B37F /* BarrageDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3BCDFA8F81B82C003CBF1402ED8DCA /* BarrageDescriptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		832C4FCA8B81F574CCA98EBD4328220B /* MLEmojiLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A2F74568E4DEB9E71970EC4998E30 /* MLEmojiLabel-dummy.m */; };
+		8606ECBCBE35FECB240A7BA93EFF1E5E /* BarrageViewPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 46920B20712C59EB5B9F7B5C8854B59A /* BarrageViewPool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7297DD5D0CA1682F997C268F7E860FE /* BarrageRenderer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E310AFE826DCE9D16CAE555636FDA2 /* BarrageRenderer-dummy.m */; };
+		AEC6C791BE06BD1802028A4A176D1D18 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DF3B29E950A287257EBB073BDE51F3 /* TTTAttributedLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B08515FE70C7F7B1C9E5E58900087587 /* UIView+BarrageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F618D8056A0A220CF3651D4F573BB1C0 /* UIView+BarrageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2627267CA5F8BE1C6E1F56A9A74523D /* BarrageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2C8E609F6FECB5175FDEFAABF56B31 /* BarrageDescriptor.m */; };
+		BA2387378E19B01C84B072AACC47BFF9 /* BarrageSpriteFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FB14F94CDD2DC0B13F106D91A05F2C /* BarrageSpriteFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBBD7A60D5BBD401C06994777E4799AE /* BarrageCanvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 2127C27F1A7D52B25B8571B623134676 /* BarrageCanvas.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C134DBD1FF4C5DC8E30E0A97AF0C8E48 /* BarrageSpriteUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDAA795F8B5D5C75BDD1DFF1A9F2BBC /* BarrageSpriteUtility.m */; };
+		C492D148883ED3C4FC6101B87D6DFBE0 /* BarrageWalkImageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E742B51B32A0352D5DAC7FC70722193 /* BarrageWalkImageSprite.m */; };
+		CC0FD103973EDDD03A33B6E8DE36C17B /* BarrageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 84071E827E763ED338F1A12E40CD4167 /* BarrageLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCE6CECE5ED760C1E1F7DC47929D7ACE /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 412BDA8DADC8B87DD2899767C5AF746D /* TTTAttributedLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0FA813734AA3FE6C3DB521725D8C9F1 /* BarrageSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5208D4731F556D4CB5CDA8B946567A /* BarrageSprite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D284D32B7C292997796D0560ACF406A4 /* BarrageCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B3C00FA2E696CC14D64F479D0F7239 /* BarrageCanvas.m */; };
+		D6FCD5438B92FEEFBFFA97E5D0CB0F7C /* BarrageSpriteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B87E9A4E552F58D6F25F6B5E1183287 /* BarrageSpriteProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB61532159EB7E153AE28BAAE6CDDE2B /* BarrageFloatTextSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 438F177D92D432C0BEDEBF5857F6C12F /* BarrageFloatTextSprite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC25F88D1AB3BAB14C3CAEBDED07B86A /* MLEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 595F3642AC57AD63DFA996C05D551A7D /* MLEmojiLabel.m */; };
+		DC4312A5A5B0C3395F6F94098A5CFB6A /* BarrageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F2C09A2607A96FA1038E65D28583A /* BarrageSprite.m */; };
+		E4A6F030523EC502FB2D2D06F4307E41 /* Pods-BarrageRendererDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4B06EE787CB6D73DEC32A03A177E4B /* Pods-BarrageRendererDemo-dummy.m */; };
+		E702C48703669F0D8A20494BC5B00272 /* MLEmojiLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F02C2D6D2FDA17102ED6CBF68AE3321A /* MLEmojiLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E90DD770560941A4B8BD0DA516AF79A1 /* BarrageSpriteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C450AC933FDDD52AB7F5BBE58902B /* BarrageSpriteFactory.m */; };
+		EDE1183EC90C3F7B2396ABA9F969F84F /* BarrageClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 38607EF38AF5F96F073D4856603BFD02 /* BarrageClock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0A23291B209332594764DDC964B8B7F /* UIView+BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 656C9A7056DF7CF99AC95B5227E78B2C /* UIView+BarrageView.m */; };
+		F84AB026C26EEB4505B47F8AC818CFD1 /* BarrageWalkSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A971F832FBA32AD5C7E2D94CF80174 /* BarrageWalkSprite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAC446BBBD6918179F47C7ADBD317832 /* BarrageWalkSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 874C2D9BC529CC01DD68F99DFD1C26FA /* BarrageWalkSprite.m */; };
+		FD2653F1FC9339A5D78361DFED322DE8 /* BarrageWalkTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A294E7570AFB9387EEF6586A60B3AD24 /* BarrageWalkTextSprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF1B462D7AD89E566408A1A5E5E9C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E077C5049157367A707E75CFDAB49F84;
+			remoteInfo = TTTAttributedLabel;
+		};
+		81AC4A458D7E8FC925109F2BE6DA9AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E077C5049157367A707E75CFDAB49F84;
+			remoteInfo = TTTAttributedLabel;
+		};
+		DC99BDDB6666ED9656621DB44196A94B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60542F0BC8C8864BC9958BD06A4281B;
+			remoteInfo = MLEmojiLabel;
+		};
+		F6CB0FBCDE8BE0D8E1656AAC3DA88796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDEA2A42C1B0FBEC9C7C62D01B24186;
+			remoteInfo = BarrageRenderer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B87E9A4E552F58D6F25F6B5E1183287 /* BarrageSpriteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageSpriteProtocol.h; sourceTree = "<group>"; };
+		0E742B51B32A0352D5DAC7FC70722193 /* BarrageWalkImageSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkImageSprite.m; sourceTree = "<group>"; };
+		12FB14F94CDD2DC0B13F106D91A05F2C /* BarrageSpriteFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageSpriteFactory.h; sourceTree = "<group>"; };
+		1378321B6CC76455AB12256A5A19D292 /* BarrageRenderer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BarrageRenderer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16DF3B29E950A287257EBB073BDE51F3 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
+		2112B44C7ABFBA496ABE394828E50A9E /* TTTAttributedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-prefix.pch"; sourceTree = "<group>"; };
+		2127C27F1A7D52B25B8571B623134676 /* BarrageCanvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageCanvas.h; sourceTree = "<group>"; };
+		219F2C09A2607A96FA1038E65D28583A /* BarrageSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageSprite.m; sourceTree = "<group>"; };
+		23B3C00FA2E696CC14D64F479D0F7239 /* BarrageCanvas.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageCanvas.m; sourceTree = "<group>"; };
+		241C450AC933FDDD52AB7F5BBE58902B /* BarrageSpriteFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageSpriteFactory.m; sourceTree = "<group>"; };
+		24906358D4472592AAB45254D975D5E2 /* libTTTAttributedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTTTAttributedLabel.a; path = libTTTAttributedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B98C99418AA12EE20F7BD82A7EB718 /* BarrageSpriteQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageSpriteQueue.m; sourceTree = "<group>"; };
+		290B4189EAF699F401AAB3C7440F6445 /* BarrageWalkTextSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageWalkTextSprite.h; sourceTree = "<group>"; };
+		2989DCC061B4AD75406E6D8ECB5B71A6 /* BarrageViewPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageViewPool.m; sourceTree = "<group>"; };
+		2B0A2F74568E4DEB9E71970EC4998E30 /* MLEmojiLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLEmojiLabel-dummy.m"; sourceTree = "<group>"; };
+		317FF3B02236E6B8A5108B44394BA944 /* MLEmoji_ExpressionImage.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = MLEmoji_ExpressionImage.plist; path = Classes/MLEmoji_ExpressionImage.plist; sourceTree = "<group>"; };
+		38607EF38AF5F96F073D4856603BFD02 /* BarrageClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageClock.h; sourceTree = "<group>"; };
+		3D3BCDFA8F81B82C003CBF1402ED8DCA /* BarrageDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageDescriptor.h; sourceTree = "<group>"; };
+		412BDA8DADC8B87DD2899767C5AF746D /* TTTAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
+		438F177D92D432C0BEDEBF5857F6C12F /* BarrageFloatTextSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageFloatTextSprite.h; sourceTree = "<group>"; };
+		453953AFDB7108C768681D997102C505 /* BarrageFloatImageSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageFloatImageSprite.h; sourceTree = "<group>"; };
+		46920B20712C59EB5B9F7B5C8854B59A /* BarrageViewPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageViewPool.h; sourceTree = "<group>"; };
+		49E83F9A89D39849FF02FE2363EED34C /* TTTAttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTTAttributedLabel-dummy.m"; sourceTree = "<group>"; };
+		56A326FB9DA0048EB3DC21D5AE48495D /* BarrageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageHeader.h; path = BarrageRenderer/BarrageHeader.h; sourceTree = "<group>"; };
+		56C8453DC23E0F697D93EF00DD1E47E4 /* Pods-BarrageRendererDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarrageRendererDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		595F3642AC57AD63DFA996C05D551A7D /* MLEmojiLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLEmojiLabel.m; path = Classes/MLEmojiLabel.m; sourceTree = "<group>"; };
+		5E7336FC0689BA64FDDAC33670C13ED1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5EF64D32E2CDEEFA174757345842961D /* Pods-BarrageRendererDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarrageRendererDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		64A971F832FBA32AD5C7E2D94CF80174 /* BarrageWalkSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageWalkSprite.h; sourceTree = "<group>"; };
+		64BDA75EFEFEFED5F46DC49415D9ED9A /* BarrageClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageClock.m; sourceTree = "<group>"; };
+		656C9A7056DF7CF99AC95B5227E78B2C /* UIView+BarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BarrageView.m"; sourceTree = "<group>"; };
+		663BAD0A53007980FBA0CE5B3A99BE96 /* libPods-BarrageRendererDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BarrageRendererDemo.a"; path = "libPods-BarrageRendererDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EA62CC0CF1DDFF11F3535AA1AEF74E /* BarrageSpriteUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageSpriteUtility.h; sourceTree = "<group>"; };
+		68F7C054BD947349AAD0B276463D8676 /* BarrageDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageDispatcher.h; sourceTree = "<group>"; };
+		6BCFE3D7FAEDCE32F91D4CF567ED87A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F5208D4731F556D4CB5CDA8B946567A /* BarrageSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageSprite.h; sourceTree = "<group>"; };
+		778417BD72D88C50C9A4FF1393657458 /* BarrageFloatSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageFloatSprite.h; sourceTree = "<group>"; };
+		782C13372F5857B215CAAE69A9504494 /* BarrageWalkImageSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageWalkImageSprite.h; sourceTree = "<group>"; };
+		7978544BB6EBDFC6CA888710F6FE905F /* MLEmojiLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLEmojiLabel-prefix.pch"; sourceTree = "<group>"; };
+		7E20D3A1ACFE85533BB80D7BEF783C94 /* Pods-BarrageRendererDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarrageRendererDemo-resources.sh"; sourceTree = "<group>"; };
+		7EBFADEC6E2865AB93D65E5691F344CB /* Pods-BarrageRendererDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageRendererDemo.release.xcconfig"; sourceTree = "<group>"; };
+		820E79E566C28956323E14C54ACDC3A7 /* BarrageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageRenderer.h; sourceTree = "<group>"; };
+		84071E827E763ED338F1A12E40CD4167 /* BarrageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageLoader.h; sourceTree = "<group>"; };
+		847266E7F112B865D708BE22B57FB625 /* BarrageRenderer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarrageRenderer.release.xcconfig; sourceTree = "<group>"; };
+		84DCF8B105D0DA066D44E30B7DA2070B /* TTTAttributedLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTTAttributedLabel.debug.xcconfig; sourceTree = "<group>"; };
+		874C2D9BC529CC01DD68F99DFD1C26FA /* BarrageWalkSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkSprite.m; sourceTree = "<group>"; };
+		88468B18C6023FEFDF1DF3ECF9F5AFF2 /* BarrageDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageDispatcher.m; sourceTree = "<group>"; };
+		8AD7A7DD07CBD5B988FA02961DE1A2BC /* BarrageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageRenderer.m; sourceTree = "<group>"; };
+		8AE1A52F4290C9D0CCAF34B5851C2F78 /* UIImageView+BarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BarrageView.m"; sourceTree = "<group>"; };
+		8DB4EC9A4B7675B1038E586CD1CB95D1 /* TTTAttributedLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTTAttributedLabel.release.xcconfig; sourceTree = "<group>"; };
+		8F2035C2C475CF20C575C88039134363 /* BarrageFloatSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageFloatSprite.m; sourceTree = "<group>"; };
+		9CD4DE4658EC25A7910F6220AEF989F0 /* gifexpression.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = gifexpression.bundle; path = Classes/MLEmoji_Expression.bundle/gifexpression.bundle; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A294E7570AFB9387EEF6586A60B3AD24 /* BarrageWalkTextSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkTextSprite.m; sourceTree = "<group>"; };
+		ACB9CE01AEFE005819A3F4FC0F0D7CBF /* UIImageView+BarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BarrageView.h"; sourceTree = "<group>"; };
+		B2C2CAFCF80FE9FB2615A820A375561E /* MLEmojiLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLEmojiLabel.debug.xcconfig; sourceTree = "<group>"; };
+		B3D730A66C0727BE6A3A17EE4E1BCEA5 /* BarrageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageLoader.m; sourceTree = "<group>"; };
+		B538AA7A9DE01C7B683D99959051F97A /* Pods-BarrageRendererDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarrageRendererDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A0998EC12458E2A77B6DCB236C8658 /* BarrageFloatImageSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageFloatImageSprite.m; sourceTree = "<group>"; };
+		B8E3A2E135486DD3E4D67434A3AE9259 /* BarrageSpriteQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrageSpriteQueue.h; sourceTree = "<group>"; };
+		BBDD85FE04EEF2A14AB64707AA934ECD /* UILabel+BarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BarrageView.m"; sourceTree = "<group>"; };
+		BE454796D804ED2B82804B6F269DE721 /* BarrageRenderer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarrageRenderer-prefix.pch"; sourceTree = "<group>"; };
+		C118BBCE7D63BC93DABE8911E88F53D1 /* BarrageFloatTextSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageFloatTextSprite.m; sourceTree = "<group>"; };
+		C4060918423C873CB75143D64B6CB04F /* MLEmoji_Expression.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = MLEmoji_Expression.plist; path = Classes/MLEmoji_Expression.plist; sourceTree = "<group>"; };
+		CC4B06EE787CB6D73DEC32A03A177E4B /* Pods-BarrageRendererDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarrageRendererDemo-dummy.m"; sourceTree = "<group>"; };
+		D6E310AFE826DCE9D16CAE555636FDA2 /* BarrageRenderer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarrageRenderer-dummy.m"; sourceTree = "<group>"; };
+		DAAB446B6703AA19DD5BD512A47904AC /* libMLEmojiLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMLEmojiLabel.a; path = libMLEmojiLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDAA795F8B5D5C75BDD1DFF1A9F2BBC /* BarrageSpriteUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageSpriteUtility.m; sourceTree = "<group>"; };
+		E74EA220915D864AB5B3614BF738DAB7 /* BarrageRenderer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarrageRenderer.debug.xcconfig; sourceTree = "<group>"; };
+		F02C2D6D2FDA17102ED6CBF68AE3321A /* MLEmojiLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLEmojiLabel.h; path = Classes/MLEmojiLabel.h; sourceTree = "<group>"; };
+		F2DCD491236E42F715CE9EBF98CDB11A /* MLEmoji_Expression.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MLEmoji_Expression.bundle; path = Classes/MLEmoji_Expression.bundle; sourceTree = "<group>"; };
+		F4C648940E64E44DAD146975010C6647 /* MLEmojiLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLEmojiLabel.release.xcconfig; sourceTree = "<group>"; };
+		F618D8056A0A220CF3651D4F573BB1C0 /* UIView+BarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BarrageView.h"; sourceTree = "<group>"; };
+		FB989084DAA883E2D610D71867376C0B /* UILabel+BarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+BarrageView.h"; sourceTree = "<group>"; };
+		FE2C8E609F6FECB5175FDEFAABF56B31 /* BarrageDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrageDescriptor.m; sourceTree = "<group>"; };
+		FE4816342835464182D20BD2E0CB9C64 /* libBarrageRenderer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBarrageRenderer.a; path = libBarrageRenderer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106726FE65AC007337F5C6488D2CDD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60058E54965D4A77DA8FCFDA3ADC7F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771829892E7BE5B61F6D1B8B0BEBEA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26FC838D2E71A7D43702A15722C592E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D67AD210D119E5B397FF3DD3AD4BB3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				090B30E8C99173E701D7308274FB4749 /* Pods-BarrageRendererDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		090B30E8C99173E701D7308274FB4749 /* Pods-BarrageRendererDemo */ = {
+			isa = PBXGroup;
+			children = (
+				56C8453DC23E0F697D93EF00DD1E47E4 /* Pods-BarrageRendererDemo-acknowledgements.markdown */,
+				5EF64D32E2CDEEFA174757345842961D /* Pods-BarrageRendererDemo-acknowledgements.plist */,
+				CC4B06EE787CB6D73DEC32A03A177E4B /* Pods-BarrageRendererDemo-dummy.m */,
+				7E20D3A1ACFE85533BB80D7BEF783C94 /* Pods-BarrageRendererDemo-resources.sh */,
+				B538AA7A9DE01C7B683D99959051F97A /* Pods-BarrageRendererDemo.debug.xcconfig */,
+				7EBFADEC6E2865AB93D65E5691F344CB /* Pods-BarrageRendererDemo.release.xcconfig */,
+			);
+			name = "Pods-BarrageRendererDemo";
+			path = "Target Support Files/Pods-BarrageRendererDemo";
+			sourceTree = "<group>";
+		};
+		0F259B266EA167BED7ED776FA0B50089 /* BarrageSprite */ = {
+			isa = PBXGroup;
+			children = (
+				453953AFDB7108C768681D997102C505 /* BarrageFloatImageSprite.h */,
+				B8A0998EC12458E2A77B6DCB236C8658 /* BarrageFloatImageSprite.m */,
+				778417BD72D88C50C9A4FF1393657458 /* BarrageFloatSprite.h */,
+				8F2035C2C475CF20C575C88039134363 /* BarrageFloatSprite.m */,
+				438F177D92D432C0BEDEBF5857F6C12F /* BarrageFloatTextSprite.h */,
+				C118BBCE7D63BC93DABE8911E88F53D1 /* BarrageFloatTextSprite.m */,
+				6F5208D4731F556D4CB5CDA8B946567A /* BarrageSprite.h */,
+				219F2C09A2607A96FA1038E65D28583A /* BarrageSprite.m */,
+				0B87E9A4E552F58D6F25F6B5E1183287 /* BarrageSpriteProtocol.h */,
+				67EA62CC0CF1DDFF11F3535AA1AEF74E /* BarrageSpriteUtility.h */,
+				DDDAA795F8B5D5C75BDD1DFF1A9F2BBC /* BarrageSpriteUtility.m */,
+				46920B20712C59EB5B9F7B5C8854B59A /* BarrageViewPool.h */,
+				2989DCC061B4AD75406E6D8ECB5B71A6 /* BarrageViewPool.m */,
+				782C13372F5857B215CAAE69A9504494 /* BarrageWalkImageSprite.h */,
+				0E742B51B32A0352D5DAC7FC70722193 /* BarrageWalkImageSprite.m */,
+				64A971F832FBA32AD5C7E2D94CF80174 /* BarrageWalkSprite.h */,
+				874C2D9BC529CC01DD68F99DFD1C26FA /* BarrageWalkSprite.m */,
+				290B4189EAF699F401AAB3C7440F6445 /* BarrageWalkTextSprite.h */,
+				A294E7570AFB9387EEF6586A60B3AD24 /* BarrageWalkTextSprite.m */,
+				ACB9CE01AEFE005819A3F4FC0F0D7CBF /* UIImageView+BarrageView.h */,
+				8AE1A52F4290C9D0CCAF34B5851C2F78 /* UIImageView+BarrageView.m */,
+				FB989084DAA883E2D610D71867376C0B /* UILabel+BarrageView.h */,
+				BBDD85FE04EEF2A14AB64707AA934ECD /* UILabel+BarrageView.m */,
+				F618D8056A0A220CF3651D4F573BB1C0 /* UIView+BarrageView.h */,
+				656C9A7056DF7CF99AC95B5227E78B2C /* UIView+BarrageView.m */,
+			);
+			name = BarrageSprite;
+			path = BarrageRenderer/BarrageSprite;
+			sourceTree = "<group>";
+		};
+		164C24FF66AC46C5ABCC3A9E9AA5BB97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E151F79DA0FEB718E89E5585E163AA16 /* MLEmojiLabel */,
+				1CF0A4666F3791D6B8F04086DC3E04D5 /* TTTAttributedLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C06D7D45F8F2A73DE9BE13D4016E6BE /* BarrageRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				56A326FB9DA0048EB3DC21D5AE48495D /* BarrageHeader.h */,
+				4AF6409DD7015CD0F111DBA6553105CE /* BarrageEngine */,
+				2D423B81CE7FB7359FDA699505F4F67B /* BarrageLoader */,
+				0F259B266EA167BED7ED776FA0B50089 /* BarrageSprite */,
+				287B95CD6B2F3D7C12760997FEB6C69A /* Pod */,
+				FF2E380CA3CAACBA16FCAB9040FAFA84 /* Support Files */,
+			);
+			name = BarrageRenderer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1CF0A4666F3791D6B8F04086DC3E04D5 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				412BDA8DADC8B87DD2899767C5AF746D /* TTTAttributedLabel.h */,
+				16DF3B29E950A287257EBB073BDE51F3 /* TTTAttributedLabel.m */,
+				9DD6FEEFECFA91930F99C3453779AEB9 /* Support Files */,
+			);
+			name = TTTAttributedLabel;
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		1FDAE7168FD5BF8C83C4422A7FFF1237 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0A2F74568E4DEB9E71970EC4998E30 /* MLEmojiLabel-dummy.m */,
+				7978544BB6EBDFC6CA888710F6FE905F /* MLEmojiLabel-prefix.pch */,
+				B2C2CAFCF80FE9FB2615A820A375561E /* MLEmojiLabel.debug.xcconfig */,
+				F4C648940E64E44DAD146975010C6647 /* MLEmojiLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLEmojiLabel";
+			sourceTree = "<group>";
+		};
+		287B95CD6B2F3D7C12760997FEB6C69A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1378321B6CC76455AB12256A5A19D292 /* BarrageRenderer.podspec */,
+				5E7336FC0689BA64FDDAC33670C13ED1 /* LICENSE */,
+				6BCFE3D7FAEDCE32F91D4CF567ED87A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2D423B81CE7FB7359FDA699505F4F67B /* BarrageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				84071E827E763ED338F1A12E40CD4167 /* BarrageLoader.h */,
+				B3D730A66C0727BE6A3A17EE4E1BCEA5 /* BarrageLoader.m */,
+			);
+			name = BarrageLoader;
+			path = BarrageRenderer/BarrageLoader;
+			sourceTree = "<group>";
+		};
+		36C9031E73222ABB39E3E24C017D2A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4816342835464182D20BD2E0CB9C64 /* libBarrageRenderer.a */,
+				DAAB446B6703AA19DD5BD512A47904AC /* libMLEmojiLabel.a */,
+				663BAD0A53007980FBA0CE5B3A99BE96 /* libPods-BarrageRendererDemo.a */,
+				24906358D4472592AAB45254D975D5E2 /* libTTTAttributedLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF6409DD7015CD0F111DBA6553105CE /* BarrageEngine */ = {
+			isa = PBXGroup;
+			children = (
+				2127C27F1A7D52B25B8571B623134676 /* BarrageCanvas.h */,
+				23B3C00FA2E696CC14D64F479D0F7239 /* BarrageCanvas.m */,
+				38607EF38AF5F96F073D4856603BFD02 /* BarrageClock.h */,
+				64BDA75EFEFEFED5F46DC49415D9ED9A /* BarrageClock.m */,
+				3D3BCDFA8F81B82C003CBF1402ED8DCA /* BarrageDescriptor.h */,
+				FE2C8E609F6FECB5175FDEFAABF56B31 /* BarrageDescriptor.m */,
+				68F7C054BD947349AAD0B276463D8676 /* BarrageDispatcher.h */,
+				88468B18C6023FEFDF1DF3ECF9F5AFF2 /* BarrageDispatcher.m */,
+				820E79E566C28956323E14C54ACDC3A7 /* BarrageRenderer.h */,
+				8AD7A7DD07CBD5B988FA02961DE1A2BC /* BarrageRenderer.m */,
+				12FB14F94CDD2DC0B13F106D91A05F2C /* BarrageSpriteFactory.h */,
+				241C450AC933FDDD52AB7F5BBE58902B /* BarrageSpriteFactory.m */,
+				B8E3A2E135486DD3E4D67434A3AE9259 /* BarrageSpriteQueue.h */,
+				27B98C99418AA12EE20F7BD82A7EB718 /* BarrageSpriteQueue.m */,
+			);
+			name = BarrageEngine;
+			path = BarrageRenderer/BarrageEngine;
+			sourceTree = "<group>";
+		};
+		678F684A05E6447E3E74CF0921E56170 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C06D7D45F8F2A73DE9BE13D4016E6BE /* BarrageRenderer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9DD6FEEFECFA91930F99C3453779AEB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E83F9A89D39849FF02FE2363EED34C /* TTTAttributedLabel-dummy.m */,
+				2112B44C7ABFBA496ABE394828E50A9E /* TTTAttributedLabel-prefix.pch */,
+				84DCF8B105D0DA066D44E30B7DA2070B /* TTTAttributedLabel.debug.xcconfig */,
+				8DB4EC9A4B7675B1038E586CD1CB95D1 /* TTTAttributedLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTTAttributedLabel";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				678F684A05E6447E3E74CF0921E56170 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				164C24FF66AC46C5ABCC3A9E9AA5BB97 /* Pods */,
+				36C9031E73222ABB39E3E24C017D2A38 /* Products */,
+				05D67AD210D119E5B397FF3DD3AD4BB3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAADA98AE6B3038498B49CDBCE1EE1EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CD4DE4658EC25A7910F6220AEF989F0 /* gifexpression.bundle */,
+				F2DCD491236E42F715CE9EBF98CDB11A /* MLEmoji_Expression.bundle */,
+				C4060918423C873CB75143D64B6CB04F /* MLEmoji_Expression.plist */,
+				317FF3B02236E6B8A5108B44394BA944 /* MLEmoji_ExpressionImage.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E151F79DA0FEB718E89E5585E163AA16 /* MLEmojiLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F02C2D6D2FDA17102ED6CBF68AE3321A /* MLEmojiLabel.h */,
+				595F3642AC57AD63DFA996C05D551A7D /* MLEmojiLabel.m */,
+				DAADA98AE6B3038498B49CDBCE1EE1EF /* Resources */,
+				1FDAE7168FD5BF8C83C4422A7FFF1237 /* Support Files */,
+			);
+			name = MLEmojiLabel;
+			path = MLEmojiLabel;
+			sourceTree = "<group>";
+		};
+		FF2E380CA3CAACBA16FCAB9040FAFA84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6E310AFE826DCE9D16CAE555636FDA2 /* BarrageRenderer-dummy.m */,
+				BE454796D804ED2B82804B6F269DE721 /* BarrageRenderer-prefix.pch */,
+				E74EA220915D864AB5B3614BF738DAB7 /* BarrageRenderer.debug.xcconfig */,
+				847266E7F112B865D708BE22B57FB625 /* BarrageRenderer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "BarrageRendererDemo/Pods/Target Support Files/BarrageRenderer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00BA7BB27B855688CDE624BB83253C24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582B026806D80DB124C2BFEFDFBC280D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBD7A60D5BBD401C06994777E4799AE /* BarrageCanvas.h in Headers */,
+				EDE1183EC90C3F7B2396ABA9F969F84F /* BarrageClock.h in Headers */,
+				8229037222ECB9C6F18AC61CCE26B37F /* BarrageDescriptor.h in Headers */,
+				2AF7F0C5EBDDA39E53BA503E27166DD0 /* BarrageDispatcher.h in Headers */,
+				27B5C53E926D6233F8F7EA656817088A /* BarrageFloatImageSprite.h in Headers */,
+				295619BD36C3FDF3E4C18A9A5140ED22 /* BarrageFloatSprite.h in Headers */,
+				DB61532159EB7E153AE28BAAE6CDDE2B /* BarrageFloatTextSprite.h in Headers */,
+				0BDFFB2D0D5A975CBDC0798D2F3457EC /* BarrageHeader.h in Headers */,
+				CC0FD103973EDDD03A33B6E8DE36C17B /* BarrageLoader.h in Headers */,
+				5A25F7A745FF7F283B40D345EB4429AC /* BarrageRenderer.h in Headers */,
+				D0FA813734AA3FE6C3DB521725D8C9F1 /* BarrageSprite.h in Headers */,
+				BA2387378E19B01C84B072AACC47BFF9 /* BarrageSpriteFactory.h in Headers */,
+				D6FCD5438B92FEEFBFFA97E5D0CB0F7C /* BarrageSpriteProtocol.h in Headers */,
+				12A2C70473FCC140509B937840AD4F93 /* BarrageSpriteQueue.h in Headers */,
+				20BEC54EFCCC7D8160CAE7401034B48F /* BarrageSpriteUtility.h in Headers */,
+				8606ECBCBE35FECB240A7BA93EFF1E5E /* BarrageViewPool.h in Headers */,
+				4FABE2B85C7A7F08854E50FB245D088A /* BarrageWalkImageSprite.h in Headers */,
+				F84AB026C26EEB4505B47F8AC818CFD1 /* BarrageWalkSprite.h in Headers */,
+				2FDF648338E1F5EBE7D3C4BE1C5AD415 /* BarrageWalkTextSprite.h in Headers */,
+				7CC5A41AE2339ACACB37CB73BE10D085 /* UIImageView+BarrageView.h in Headers */,
+				378F675A44AD6A38FE3F7A29D0EB918C /* UILabel+BarrageView.h in Headers */,
+				B08515FE70C7F7B1C9E5E58900087587 /* UIView+BarrageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734526301169E680B7CE1C63823D7706 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E702C48703669F0D8A20494BC5B00272 /* MLEmojiLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A3A25B42FDB9E6610F2D02073A5558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6CECE5ED760C1E1F7DC47929D7ACE /* TTTAttributedLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7A41D4A1A5E73E6564F02F710E9116C /* Pods-BarrageRendererDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D426BA1B5F311F3ECCDFF47DEA084CA /* Build configuration list for PBXNativeTarget "Pods-BarrageRendererDemo" */;
+			buildPhases = (
+				00BA7BB27B855688CDE624BB83253C24 /* Headers */,
+				D36BD1DCA0730A84A945D5669ADF3236 /* Sources */,
+				106726FE65AC007337F5C6488D2CDD7F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F21F0B2090BFC55BF8464D3B7FB1C01 /* PBXTargetDependency */,
+				042DBA7E25CBB323457FD5073A06E54E /* PBXTargetDependency */,
+				9F181EA5A97FF8DD8C21307F298BEF3B /* PBXTargetDependency */,
+			);
+			name = "Pods-BarrageRendererDemo";
+			productName = "Pods-BarrageRendererDemo";
+			productReference = 663BAD0A53007980FBA0CE5B3A99BE96 /* libPods-BarrageRendererDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEDEA2A42C1B0FBEC9C7C62D01B24186 /* BarrageRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0052012B796CB1977C71513BBDC8DDD0 /* Build configuration list for PBXNativeTarget "BarrageRenderer" */;
+			buildPhases = (
+				582B026806D80DB124C2BFEFDFBC280D /* Headers */,
+				37C5970FF034019F2A139084A115AD6E /* Sources */,
+				C26FC838D2E71A7D43702A15722C592E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarrageRenderer;
+			productName = BarrageRenderer;
+			productReference = FE4816342835464182D20BD2E0CB9C64 /* libBarrageRenderer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E077C5049157367A707E75CFDAB49F84 /* TTTAttributedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1345E0502A26758CFE498193E5F5D41 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */;
+			buildPhases = (
+				E9A3A25B42FDB9E6610F2D02073A5558 /* Headers */,
+				B78F507BAD376A6921482E207B2EADE3 /* Sources */,
+				60058E54965D4A77DA8FCFDA3ADC7F7A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTAttributedLabel;
+			productName = TTTAttributedLabel;
+			productReference = 24906358D4472592AAB45254D975D5E2 /* libTTTAttributedLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E60542F0BC8C8864BC9958BD06A4281B /* MLEmojiLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFD36937481C4B834D38ECF09411ECC /* Build configuration list for PBXNativeTarget "MLEmojiLabel" */;
+			buildPhases = (
+				734526301169E680B7CE1C63823D7706 /* Headers */,
+				6B68CDE005F9C1E68FA0EBE52DAE8424 /* Sources */,
+				771829892E7BE5B61F6D1B8B0BEBEA3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB924AE81B603B98806F21D5523665E3 /* PBXTargetDependency */,
+			);
+			name = MLEmojiLabel;
+			productName = MLEmojiLabel;
+			productReference = DAAB446B6703AA19DD5BD512A47904AC /* libMLEmojiLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 36C9031E73222ABB39E3E24C017D2A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDEA2A42C1B0FBEC9C7C62D01B24186 /* BarrageRenderer */,
+				E60542F0BC8C8864BC9958BD06A4281B /* MLEmojiLabel */,
+				A7A41D4A1A5E73E6564F02F710E9116C /* Pods-BarrageRendererDemo */,
+				E077C5049157367A707E75CFDAB49F84 /* TTTAttributedLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C5970FF034019F2A139084A115AD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D284D32B7C292997796D0560ACF406A4 /* BarrageCanvas.m in Sources */,
+				34C45E2564F7230AA5E91938EC48346A /* BarrageClock.m in Sources */,
+				B2627267CA5F8BE1C6E1F56A9A74523D /* BarrageDescriptor.m in Sources */,
+				5839211482C8ABF8D1CA283AAD2A778C /* BarrageDispatcher.m in Sources */,
+				141C9BF73E8C6DBB1E3C88241D666ECB /* BarrageFloatImageSprite.m in Sources */,
+				716E06B5551D105015AE5D0F7BD20474 /* BarrageFloatSprite.m in Sources */,
+				130CED9304715BB6FF7B57D287863EB3 /* BarrageFloatTextSprite.m in Sources */,
+				4C6F4987D5352C105AF9AB49D4088189 /* BarrageLoader.m in Sources */,
+				A7297DD5D0CA1682F997C268F7E860FE /* BarrageRenderer-dummy.m in Sources */,
+				44A14B815DEC7A450F71C332C74E239B /* BarrageRenderer.m in Sources */,
+				DC4312A5A5B0C3395F6F94098A5CFB6A /* BarrageSprite.m in Sources */,
+				E90DD770560941A4B8BD0DA516AF79A1 /* BarrageSpriteFactory.m in Sources */,
+				4B2D0687EF6990B2D0AD09D913BB37DA /* BarrageSpriteQueue.m in Sources */,
+				C134DBD1FF4C5DC8E30E0A97AF0C8E48 /* BarrageSpriteUtility.m in Sources */,
+				2747433E3F56D9657237C8DE892C9B44 /* BarrageViewPool.m in Sources */,
+				C492D148883ED3C4FC6101B87D6DFBE0 /* BarrageWalkImageSprite.m in Sources */,
+				FAC446BBBD6918179F47C7ADBD317832 /* BarrageWalkSprite.m in Sources */,
+				FD2653F1FC9339A5D78361DFED322DE8 /* BarrageWalkTextSprite.m in Sources */,
+				0DE5095D9E150D5D8B65D9B2F1E92732 /* UIImageView+BarrageView.m in Sources */,
+				8141361D0F798A075A2F8EC59D9E0083 /* UILabel+BarrageView.m in Sources */,
+				F0A23291B209332594764DDC964B8B7F /* UIView+BarrageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B68CDE005F9C1E68FA0EBE52DAE8424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832C4FCA8B81F574CCA98EBD4328220B /* MLEmojiLabel-dummy.m in Sources */,
+				DC25F88D1AB3BAB14C3CAEBDED07B86A /* MLEmojiLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78F507BAD376A6921482E207B2EADE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE882DFB8F6BDF103423FD9CC87978D /* TTTAttributedLabel-dummy.m in Sources */,
+				AEC6C791BE06BD1802028A4A176D1D18 /* TTTAttributedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36BD1DCA0730A84A945D5669ADF3236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A6F030523EC502FB2D2D06F4307E41 /* Pods-BarrageRendererDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042DBA7E25CBB323457FD5073A06E54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLEmojiLabel;
+			target = E60542F0BC8C8864BC9958BD06A4281B /* MLEmojiLabel */;
+			targetProxy = DC99BDDB6666ED9656621DB44196A94B /* PBXContainerItemProxy */;
+		};
+		8F21F0B2090BFC55BF8464D3B7FB1C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarrageRenderer;
+			target = DEDEA2A42C1B0FBEC9C7C62D01B24186 /* BarrageRenderer */;
+			targetProxy = F6CB0FBCDE8BE0D8E1656AAC3DA88796 /* PBXContainerItemProxy */;
+		};
+		9F181EA5A97FF8DD8C21307F298BEF3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTTAttributedLabel;
+			target = E077C5049157367A707E75CFDAB49F84 /* TTTAttributedLabel */;
+			targetProxy = 81AC4A458D7E8FC925109F2BE6DA9AC8 /* PBXContainerItemProxy */;
+		};
+		EB924AE81B603B98806F21D5523665E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTTAttributedLabel;
+			target = E077C5049157367A707E75CFDAB49F84 /* TTTAttributedLabel */;
+			targetProxy = 5AF1B462D7AD89E566408A1A5E5E9C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31DC0D02B96D5065DFE38CFD92E96AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33414968AF37BA48F12744FFAFA3BC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB4EC9A4B7675B1038E586CD1CB95D1 /* TTTAttributedLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTTAttributedLabel;
+				PRODUCT_NAME = TTTAttributedLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B9EB26CC361EE4C83171A9FB835E9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DCF8B105D0DA066D44E30B7DA2070B /* TTTAttributedLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTTAttributedLabel;
+				PRODUCT_NAME = TTTAttributedLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		536190994FA5966EDC51A2F2FE2084A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBFADEC6E2865AB93D65E5691F344CB /* Pods-BarrageRendererDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5377778ECEFC5A482E515AB92024D5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847266E7F112B865D708BE22B57FB625 /* BarrageRenderer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BarrageRenderer/BarrageRenderer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BarrageRenderer;
+				PRODUCT_NAME = BarrageRenderer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78244F5E4362F1C27323E23AFB46CD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C648940E64E44DAD146975010C6647 /* MLEmojiLabel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MLEmojiLabel/MLEmojiLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MLEmojiLabel;
+				PRODUCT_NAME = MLEmojiLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2194CF41D431923F97DEF87925DC426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C2CAFCF80FE9FB2615A820A375561E /* MLEmojiLabel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MLEmojiLabel/MLEmojiLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MLEmojiLabel;
+				PRODUCT_NAME = MLEmojiLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D633E7349ED240949EC3523D3910B3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B538AA7A9DE01C7B683D99959051F97A /* Pods-BarrageRendererDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F923879C03C30DA8A89E83EEB68927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74EA220915D864AB5B3614BF738DAB7 /* BarrageRenderer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BarrageRenderer/BarrageRenderer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BarrageRenderer;
+				PRODUCT_NAME = BarrageRenderer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6991AB26C9E59A9D3BE85E2B9FD70B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0052012B796CB1977C71513BBDC8DDD0 /* Build configuration list for PBXNativeTarget "BarrageRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F923879C03C30DA8A89E83EEB68927 /* Debug */,
+				5377778ECEFC5A482E515AB92024D5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D426BA1B5F311F3ECCDFF47DEA084CA /* Build configuration list for PBXNativeTarget "Pods-BarrageRendererDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D633E7349ED240949EC3523D3910B3C1 /* Debug */,
+				536190994FA5966EDC51A2F2FE2084A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DC0D02B96D5065DFE38CFD92E96AE0 /* Debug */,
+				F6991AB26C9E59A9D3BE85E2B9FD70B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFD36937481C4B834D38ECF09411ECC /* Build configuration list for PBXNativeTarget "MLEmojiLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2194CF41D431923F97DEF87925DC426 /* Debug */,
+				78244F5E4362F1C27323E23AFB46CD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1345E0502A26758CFE498193E5F5D41 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9EB26CC361EE4C83171A9FB835E9F9 /* Debug */,
+				33414968AF37BA48F12744FFAFA3BC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
