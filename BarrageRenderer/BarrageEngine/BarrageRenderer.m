@@ -397,6 +397,10 @@ NSString * const kBarrageRendererContextTimestamp = @"kBarrageRendererContextTim
     [itemMap removeObject:sprite];
 }
 
+- (void)setupAllLabelsFontSize:(NSInteger)fontSize {
+    [_dispatcher setupAllLabelsFontSize:fontSize];
+}
+
 #pragma mark - attributes
 
 - (UIView *)view

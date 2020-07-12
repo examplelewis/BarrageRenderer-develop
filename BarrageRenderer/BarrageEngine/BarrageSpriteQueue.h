@@ -48,4 +48,6 @@
 /// 依据delay降序
 - (NSArray *)descendingSprites;
 
+- (void)setupAllLabelsFontSize:(NSInteger)fontSize;
+
 @end

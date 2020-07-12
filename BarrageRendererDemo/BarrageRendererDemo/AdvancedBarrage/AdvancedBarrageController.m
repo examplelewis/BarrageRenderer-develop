@@ -18,6 +18,7 @@
     NSInteger _index;
     NSDate * _startTime;
     NSTimeInterval _predictedTime; //快进时间
+    NSInteger _fontSize;
 }
 
 @end
@@ -29,6 +30,7 @@
     [super viewDidLoad];
     _index = 0;
     _predictedTime = 0.0f;
+    _fontSize = 13;
     [self initBarrageRenderer];
 }
 
@@ -37,6 +39,7 @@
     _renderer = [[BarrageRenderer alloc]init];
     _renderer.delegate = self;
     _renderer.redisplay = YES;
+    _renderer.view.userInteractionEnabled = YES;
     [self.view addSubview:_renderer.view];
     [self.view sendSubviewToBack:_renderer.view];
 }
@@ -55,11 +58,20 @@
 
 - (IBAction)load:(id)sender
 {
-    NSInteger const number = 10;
-    NSMutableArray * descriptors = [[NSMutableArray alloc]init];
-    for (NSInteger i = 0; i < number; i++) {
-        [descriptors addObject:[self walkTextSpriteDescriptorWithDelay:i*2+1]];
+//    NSInteger const number = 10;
+//    NSMutableArray * descriptors = [[NSMutableArray alloc]init];
+//    for (NSInteger i = 0; i < number; i++) {
+//        [descriptors addObject:[self walkTextSpriteDescriptorWithDelay:i*2+1]];
+    NSMutableArray *descriptors = [NSMutableArray array];
+    for (NSInteger i = 0; i < 50; i++) {
+        BarrageDescriptor *descriptor = [self walkTextSpriteDescriptorWithDelay:i];
+
+        NSUInteger times = arc4random_uniform(5);
+        for (NSInteger j = 0; j < times; j++) {
+            [descriptors addObject:descriptor];
+        }
     }
+
     [_renderer load:descriptors];
 }
 
@@ -90,11 +102,18 @@
 {
     BarrageDescriptor * descriptor = [[BarrageDescriptor alloc]init];
     descriptor.spriteName = NSStringFromClass([BarrageWalkTextSprite class]);
+    descriptor.params[@"bizMsgId"] = [NSString stringWithFormat:@"%ld",(long)_index];
     descriptor.params[@"text"] = [NSString stringWithFormat:@"延时弹幕(延时%.0f秒):%ld",delay,(long)_index++];
     descriptor.params[@"textColor"] = [UIColor blueColor];
     descriptor.params[@"speed"] = @(100 * (double)random()/RAND_MAX+50);
     descriptor.params[@"direction"] = @(1);
     descriptor.params[@"delay"] = @(delay);
+    descriptor.params[@"fontSize"] = @(_fontSize);
+    descriptor.params[@"clickAction"] = ^(NSDictionary *params){
+        self->_fontSize = 18;
+        [_renderer setupAllLabelsFontSize:18];
+    };
+    
     return descriptor;
 }
 

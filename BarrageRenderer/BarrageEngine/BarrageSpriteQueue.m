@@ -169,4 +169,24 @@
     return [self indexForSpriteDelay:sprite.delay];
 }
 
+- (void)setupAllLabelsFontSize:(NSInteger)fontSize {
+    [self.sprites enumerateObjectsUsingBlock:^(BarrageSprite * _Nonnull sprite, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSMutableDictionary *copiedParams = [sprite.viewParams mutableCopy];
+        copiedParams[@"fontSize"] = @(fontSize);
+        sprite.viewParams = [copiedParams copy];
+        
+        if ([sprite.view isKindOfClass:[UILabel class]]) {
+            ((UILabel *)sprite.view).font = [UIFont systemFontOfSize:fontSize];
+        } else {
+            [sprite.view.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                if ([obj isKindOfClass:[UILabel class]]) {
+                    ((UILabel *)obj).font = [UIFont systemFontOfSize:fontSize];
+                }
+            }];
+        }
+        
+        [sprite.view sizeToFit];
+    }];
+}
+
 @end

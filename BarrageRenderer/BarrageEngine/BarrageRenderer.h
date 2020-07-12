@@ -93,6 +93,8 @@ typedef NS_ENUM(NSInteger, BarrageSpriteStage) {
 /// 获取外部时间的代理,若需将弹幕固定到时间点上,则需设置此代理
 @property(nonatomic,weak)id<BarrageRendererDelegate> delegate;
 
+- (void)setupAllLabelsFontSize:(NSInteger)fontSize;
+
 #pragma mark - output
 
 /// 返回给外部的view
